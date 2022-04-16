@@ -5,8 +5,5 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'leesin-songxinlu' });
 });
-app.post('/', function (req, res) {
-  res.send('Got a POST request')
-})
 
 module.exports = router;
