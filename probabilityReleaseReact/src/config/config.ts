@@ -5,4 +5,5 @@ import routes from './routes';
 
 export default defineConfig({
   routes: routes,
+  mfsu:{}
 });
